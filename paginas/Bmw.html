@@ -3,52 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <title>BMW</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
-   
-    <link rel="icon" type="image/jpg" href="./img/favicon.png"/>
-    <link rel="stylesheet" href="/css/articulos.css">
-    <link rel="stylesheet" href="/css/blog.css">
+    <link rel="icon" type="image/jpg" href="/img/favicon.png"/>
     <link rel="stylesheet" href="/css/principal.css">
 
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 </head>
 <body>
-    <header>
-
-        <div class="header-content">
-
-            <div class="logo">
-                <a href="/inicio.html"><h1><bb>Automoviles</bb><b>TRF</b></h1></a>
+    <header class="color-fondo">
+        <nav class="navbar navbar-expand-lg  header-content">
+            <div class="container-fluid logo ">
+              <a class="navbar-brand" href="/inicio.html"><h1><b>Automoviles</b> <bb>TRF</bb></h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link bg-light navbar-light" aria-current="page" href="/inicio.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link bg-light navbar-light" href="/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-
-            <div class="menu" id="show-menu">
-
-                <nav>
-                    <ul>
-                        <li><a href="/inicio.html"> <i class="fas fa-home"></i> Inicio</a></li>
-                        <li><a href="#"> <i class="fas fa-headset"></i> Contacto</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <h1>BMW Serie M 3.0 M4 560cv</h1>
+          </nav>
+    </header> 
+    <h1 class="h2-n">BMW Serie M 3.0 M4 560cv</h1>
     <div>
-        <h2 class="h2">Caracteristicas</h2>
-        <h3 class="h3">Precio: U$S 100.000</h3>
-        <h3 class="h3">Año: 2017</h3>
-        <h3 class="h3">KM: 22.000mil</h3>
-        <h3 class="h3">Motor: 3.0 560CV</h3>
+        <h2 class="h2-l">Caracteristicas</h2><br>
+        <h3 class="h3">Precio: U$S 20.000</h3>
+        <h3 class="h3">Año: 2014</h3>
+        <h3 class="h3">KM: 125.000mil</h3>
+        <h3 class="h3">Motor: 1.8T</h3>
     </div>
-    <h2>Galeria de fotos</h2>
-    <ul  style="list-style: none;">
-        <li><img  class="zoom" src="/img/articulos/bmw/bmw1.jpg"  width = "800" height = "400"></li>
-        <li><img class="zoom" src="/img/articulos/bmw/bmw2.jpg"  width = "800" height = "400"></li>
-        <li><img class="zoom" src="/img/articulos/bmw/bmw.jpg"   width = "800" height = "400"></li>
-        <li><img class="zoom" src="/img/articulos/bmw/bmw5.jpg"  width = "800" height = "400"></li>
-        <li><img class="zoom" src="/img/articulos/bmw/bmw4.jpg"  width = "800" height = "400"></li>
-    <h2></h2>
+    <h2 class="h2-n">Galeria de fotos</h2>
+        <div class="grid">
+            <img class="foto1 " src="/img/articulos/bmw/bmw1.jpg" >
+            <img class="foto2 " src="/img/articulos/bmw/bmw3.jpg"   >
+            <img class="foto3 " src="/img/articulos/bmw/bmw4.jpg"   >
+            <img class="foto4 " src="/img/articulos/bmw/bmw5.jpg"   >
+        </div>
         
     </ul>
     <div class="container-footer">	
