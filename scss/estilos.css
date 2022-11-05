@@ -93,9 +93,10 @@ header {
 
 .nav-link {
   font-style: normal;
+  background-color: #dbc5c5 !important;
   font-family: "Montserrat", sans-serif;
   border-radius: 10%;
-  font-size: 15px;
+  font-size: 20px;
   margin: 90px;
   color: rgb(0, 0, 0);
   font-weight: 300px;
